@@ -35,7 +35,7 @@ const ExpandableCard = ({ title, content, url }) => {
                 <Text style={styles.title}>{title}</Text>
                 <TouchableOpacity onPress={toggleExpand} activeOpacity={0.8}>
                     <AntDesign style={{
-                        alignItems:'flex-end',
+                        alignItems: 'flex-end',
                         margin: 4,
                     }} name="downcircle" size={20} color="grey" />
                 </TouchableOpacity>
@@ -65,7 +65,7 @@ const ExpandableCard = ({ title, content, url }) => {
 
 const styles = StyleSheet.create({
     container: {
-        flex:1,
+        flex: 1,
         borderRadius: 8,
         backgroundColor: '#f2f2f2',
         margin: 3,
